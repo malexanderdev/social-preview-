@@ -1,0 +1,116 @@
+* {    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 450px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    background-color: white;
+      margin: 7% auto;
+      border-radius: 20px;
+      overflow: hidden;
+      width: 400px;
+      text-align: center;
+      max-width: 100%;
+      height: auto;
+}
+
+h1 {
+    padding: 20px 30px;
+}
+
+.sumry {
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.plan-card {
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color:  hsl(225, 100%, 98%);
+    display: flex;
+}
+
+.plan-card-left {
+    width: auto;
+    display: flex;
+}
+
+.price {
+    padding-left: 15px;
+}
+
+.year, .cancel-btn, .sumry {
+    color: hsl(224, 23%, 55%);
+}
+
+.annual, .change-btn, .cancel-btn {
+    font-weight: 700;
+}
+
+.payment {
+    padding-bottom: 35px;
+}
+
+/* BUTTONS*/
+.change-btn {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: transparent;
+    border: hidden;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.change-btn:hover {
+    color: hsl(245, 75%, 52%);
+    opacity: 60%;
+    transition-duration: 0.3s;
+}
+
+.btn-payment {
+    box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, .25);
+    width: 90%;
+    border: hidden;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.btn-payment:hover {
+    background-color: hsl(245, 75%, 52%);
+    opacity: 60%;
+    transition-duration: 0.3s;
+}
+
+.cancel-btn {
+    padding-top: 30px;
+    background-color: transparent;
+    border: hidden;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.cancel-btn:hover {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.payment {
+    padding-bottom: 35px;
+}
